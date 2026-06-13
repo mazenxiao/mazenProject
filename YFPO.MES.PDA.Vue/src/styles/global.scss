@@ -1,0 +1,59 @@
+/* 全局样式 —— PDA / 手机 / PC 自适配 */
+
+/* 重置 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 工业 PDA 默认竖屏 */
+@media (orientation: portrait) {
+  html {
+    /* 占位，保留扩展 */
+  }
+}
+
+/* 大屏（PC / 平板）切换为更宽松排版 */
+@media (min-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  .page-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+/* 小工业屏（PDA 4.0 / 5.0 寸） */
+@media (max-width: 480px) {
+  .page-container {
+    padding: 8px 12px;
+  }
+}
+
+/* 通用容器 */
+.page-container {
+  padding: 12px 16px;
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+/* 关键按钮高度 ≥ 40px（PDA 单手单指点按） */
+.van-button--normal {
+  min-height: 40px;
+}
+
+.no-vw {
+  /* 携带此类的元素不会被 postcss-px-to-viewport 转换 */
+}
+
+/* 隐藏初始 loader */
+#initial-loader {
+  display: none !important;
+}

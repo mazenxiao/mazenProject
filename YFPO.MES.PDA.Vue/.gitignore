@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-rollback
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.local
+.env.local
+.env.*.local
+coverage
+.cache
+src/auto-imports.d.ts
+src/components.d.ts
+public/version.json
+*.log

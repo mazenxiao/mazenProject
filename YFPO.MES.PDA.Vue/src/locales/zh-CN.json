@@ -1,0 +1,42 @@
+{
+  "common": {
+    "ok": "确定",
+    "cancel": "取消",
+    "back": "返回",
+    "submit": "提交",
+    "save": "保存",
+    "loading": "加载中…",
+    "empty": "暂无数据",
+    "error": "出错了",
+    "success": "成功",
+    "logout": "退出登录",
+    "language": "语言",
+    "company": "公司",
+    "factory": "工厂",
+    "version": "版本",
+    "search": "搜索"
+  },
+  "login": {
+    "title": "MES PDA 登录",
+    "userAccount": "账号",
+    "userPassword": "密码",
+    "factory": "工厂",
+    "company": "公司",
+    "submit": "登 录",
+    "scanLogin": "扫码登录",
+    "rememberMe": "记住账号",
+    "switchLang": "切换语言",
+    "errAccountRequired": "请输入账号",
+    "errPasswordRequired": "请输入密码",
+    "errFactoryRequired": "请选择工厂"
+  },
+  "home": {
+    "welcome": "欢迎，{name}",
+    "menus": "功能菜单",
+    "clearCache": "清除缓存",
+    "noPrograms": "无可用功能"
+  },
+  "rfid": {
+    "unsupported": "该功能在网页版暂不可用，请使用 PDA 客户端"
+  }
+}

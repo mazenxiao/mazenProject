@@ -1,0 +1,42 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "back": "Back",
+    "submit": "Submit",
+    "save": "Save",
+    "loading": "Loading…",
+    "empty": "No data",
+    "error": "Error",
+    "success": "Success",
+    "logout": "Logout",
+    "language": "Language",
+    "company": "Company",
+    "factory": "Factory",
+    "version": "Version",
+    "search": "Search"
+  },
+  "login": {
+    "title": "MES PDA Login",
+    "userAccount": "Account",
+    "userPassword": "Password",
+    "factory": "Factory",
+    "company": "Company",
+    "submit": "Sign In",
+    "scanLogin": "Scan to login",
+    "rememberMe": "Remember me",
+    "switchLang": "Change Language",
+    "errAccountRequired": "Account is required",
+    "errPasswordRequired": "Password is required",
+    "errFactoryRequired": "Please select a factory"
+  },
+  "home": {
+    "welcome": "Welcome, {name}",
+    "menus": "Menus",
+    "clearCache": "Clear Cache",
+    "noPrograms": "No available programs"
+  },
+  "rfid": {
+    "unsupported": "RFID is unavailable in browser; please use the PDA client."
+  }
+}
